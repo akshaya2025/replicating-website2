@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="webpage">
+    <meta name="description" content="The official website for Trellis Restaurant">
+    <title>web of Trellis Restaurant</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<!--blockelement modifier first parent:-header-->
+<body>
+    <header class="header">
+        <h1 class="header__h1">Trellis Restaurant</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li>
+                    <a href="#menu">Menu</a>
+                </li>
+                <li>
+                    <a href="hours.html">Hours</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2 class="hero__h2">Welcome!</h2>
+        <figure>
+            <img src="img/tacos_and_drink_1000x667.png" alt="Snacks and a Drink" title="We love Snacks!" width="1000" height="667">
+            <figcaption class="offscreen"> <!--makes caption available not readable-->
+                Tacos and a Drink
+            </figcaption>
+        </figure>
+    </section>
+
+    <main class="main">
+
+        <article id="menu" class="main__article menu">
+            <h2 class="menu__h2">Our Special Menu</h2>
+            <table class="menu__container">
+                <caption class="offscreen">Our Tacos</caption>
+                <thead>
+                    <tr>
+                        <th class="menu__header" scope="col">Menus</th>
+                        <th class="menu__header" scope="col">Quantity</th>
+                        <th class="menu__header" scope="col">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="menu__item menu__cr" scope="row" rowspan="3">
+                            Dessert selections
+                        </th>
+                        <td class="menu__item">Chocalate Mousse</td>
+                        <td class="menu__item">$9.00</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">Creme Caramel</td>
+                        <td class="menu__item">$7.00</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">Tiramisu</td>
+                        <td class="menu__item">$9.00</td>
+                    </tr>
+                    <tr>
+                        <th class="menu__item menu__sf" scope="row" rowspan="3">
+                            Coffee & Tea selections 
+                        </th>
+                        <td class="menu__item">Espresso</td>
+                        <td class="menu__item">$3.50</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">Cappuccino</td>
+                        <td class="menu__item">$5.50</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">Cafe Mocha</td>
+                        <td class="menu__item">$7.50</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td class="menu__item menu__cs" colspan="3">
+                            Tacos &amp; Salsa $3
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <p class="center">
+                <a href="#">Back To Top</a>
+            </p>
+        </article>
+    </main>
+    <hr>
+    <footer class="footer">
+        <p>
+            <span class="nowrap">Copyright &copy; <time id="year"></time></span>
+            <span class="nowrap">Trellis Restaurant</span>
+        </p>
+    </footer>
+</body>
+</html>

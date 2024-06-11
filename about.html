@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="webpage">
+    <meta name="description" content="About Trellis Restaurant">
+    <title>About TR</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+  
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__h1">Trellis Restaurant</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li>
+                    <a href="/">Home</a>  <!--denotes that about is the root page and this helps to redirect to home page-->
+                </li>
+                <li>
+                    <a href="/#menu">Menu</a>  <!--in home it help to visit particular spot-->
+                </li>
+                <li>
+                    <a href="hours.html">Hours</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <figure>
+            <img src="img/tacos_delicioso_1000x667.png" alt="Tacos Delicioso" title="Tacos Delicioso!" width="1000"
+                height="667">
+            <figcaption class="offscreen">
+                Try these Delicious Snacks
+            </figcaption>
+        </figure>
+    </section>
+
+    <main class="main">
+        <article id="about" class="main__article about">
+            <h2>About <abbr title="Trellis Restaurant">TR</abbr></h2>
+            <p>
+                <abbr title="Trellis Restaurant">TR</abbr> was founded in <time datetime="2022">2022</time>.A hidden oasis in Menlo Park serving modern Italian cuisine with a California flair.We hope our shop adds a unique and interesting
+                place to our little town.<strong> And Trellis Restaurant is Known for Delicious Tacos.</strong>
+            </p>
+            <aside class="about__trivia">
+                <h3>Taco Trivia</h3>
+                <details>
+                    <summary>When did tacos first appear in the United States?</summary>
+                    <p class="about__trivia-answer">
+                        Jeffrey M. Pilcher, taco historian and professor of history at the University of Minnesota, says
+                        the earliest mention of tacos in the United States are in a newspaper from <time
+                            datetime="1905">1905</time>. (Source: <cite><a
+                                href="https://www.smithsonianmag.com/arts-culture/where-did-the-taco-come-from-81228162/"
+                                target="_blank">Smithsonian Magazine</a></cite>)
+                    </p>
+                </details>
+            </aside>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <p>
+            <span class="nowrap">Copyright &copy; <time id="year"></time></span>
+            <span class="nowrap">Trellis Restaurant</span>
+        </p>
+    </footer>
+</body>
+
+</html>
